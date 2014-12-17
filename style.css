@@ -1,88 +1,59 @@
-/* comments look like this in CSS files */
-/*
-#navbar {
-  background-color: #000000; 
-  color: #ffffff;            
-  margin: 0;
-  padding: 0.5em 0; 
-}
-
-#navbar a {
-  margin: 0;
-  padding: 0.5em;
-  color: #ffffff;
-  text-decoration: none;
-}
-
-main {
-  padding: 0.3em;
-}
-
 body { 
-	background-color: #BDBDBD;
-	width: 100%;
-	height: 100%; }
-
-p { 
-	font-size: 1em;
-	color: #4C0B5F; }
-	
-#purple { 
-	font-size: 2em; 
-	color: #4C0B5F;} */
-	
-#navbar{
-  background-color: #000000; 
-  color: #ffffff;            
-  margin: 0;
-  width: 750px;
-  padding: 0.5em 0.5; 
+	background-color: #c4cdd2;
+	font-family: Arial;
 }
 
-#navbar a {
-  margin: 0;
-  padding: 0.5em;
-  color: #ffffff;
-  text-decoration: none;
+#container {
+	background-color: #fff;
+	width: 800px; 
+	margin-left: auto;
+	margin-right: auto;
+	padding: 15px; 
 }
-	
-#banner { 
-	width: 100%; 
-	padding: 0em 0; } 
+h1, h2, h3 {
+	margin: 0px;
+	padding: 1px;
+}
+#header { 
+	background-color: #bbc5ca; 
+	padding: 0px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    display: inline;
+}
+#title { 
+	text-align: center;
+	margin: 0px;
+} 
 
-body {
-margin:0;
-padding:0;
-color:#000;
-background:#a7a09a;
-}
-#wrap { 
-width:750px;
-margin:0 auto;
-background: #99c; } 
-#header {
-background:#ddd;
-}
-#nav {
-background:#c99;
+#subtitle { 
+	text-align: center;
+	padding: 0px;
 }
 #main {
-background:#9c9;
+	background-color: #fefefe;
 }
-#sidebar {
-background:#c9c;
-}
-#footer {
-margin: 0 auto;
-width:750px;
-clear:both; 
-background:#cc9;
-}
-#main { 
+#nav { 
+	background-color: #d7dee0;
 	float: left;
-	width: 500px; 
-	background: #9c9; }
-#sidebar { 
-	float:right;
-	width:250px; 
-	background:#c9c; } 
+	width: 800px; 
+	text-align: center;
+}
+a { 
+	color: #000; 
+	text-decoration: none;
+}
+#content {
+	float: left;
+}
+
+#footer {
+	clear: both;
+	background-color: #d7dee0;
+	text-align: right;
+}
