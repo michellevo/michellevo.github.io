@@ -26,13 +26,12 @@ h1 {
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 10px;
 	color: #45687F;
 	font-family: 'Open Sans Condensed', sans-serif;
 }
-#	separator { 
+#separator { 
 	height: 20px;
-	width: 800px; 
 	background-color: white; 
 }
 li {
@@ -50,6 +49,7 @@ li {
 }
 #main {
 	background-color: #fefefe;
+	width: 100%;
 }
 #nav { 
 	background-color: #fff;
@@ -60,6 +60,7 @@ li {
 a { 
 	color: #45687F; 
 	text-decoration: none;
+	margin: 15px;
 }
 #content {
 	float: left;
@@ -67,6 +68,7 @@ a {
 
 .links { 
 	padding: 0px 10px 0px 10px;
+	
 }
 
 #footer {
@@ -83,4 +85,12 @@ a {
 	font-size: 25px; 
 	font-weight: bold;
 	
+}
+
+.dots{
+    margin-left: 350px;
+	padding: 0px;
+	font-size: 30px; 
+	font-weight: bold; 
+	color: #3DB1FF
 }
