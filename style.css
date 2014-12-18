@@ -1,11 +1,11 @@
 body { 
 	background-color: #fff;
-	font-family: Arial;
+	font-family: 'Open Sans Condensed', sans-serif;
 }
 
 #container {
 	background-color: #fff;
-	width: 800px; 
+	width: 750px; 
 	margin-left: auto;
 	margin-right: auto;
 	padding: 15px; 
@@ -17,18 +17,20 @@ h1, h2, h3 {
 h1 {
 	padding: 1px; 
 	font-size: 50px; 
+	font-family: Helvetica;
 }
 #header { 
 	color: #3498db; 
-	padding: 0px;
+	padding: 0px;	
 }
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
 	color: #45687F;
+	font-family: 'Open Sans Condensed', sans-serif;
 }
-#separator { 
+#	separator { 
 	height: 20px;
 	width: 800px; 
 	background-color: white; 
@@ -72,11 +74,13 @@ a {
 	color: #45687F; 
 	background-color: #fff;
 	text-align: right;
+	margin-right: 30px;
 }
 
 .head{
-	padding-left: 130px; 
-	color: red; 
+	padding-left: 70px; 
+	color: #3DB1FF; 
 	font-size: 25px; 
 	font-weight: bold;
+	
 }
