@@ -1,5 +1,5 @@
 body { 
-	background-color: #c4cdd2;
+	background-color: #fff;
 	font-family: Arial;
 }
 
@@ -14,17 +14,28 @@ h1, h2, h3 {
 	margin: 0px;
 	padding: 1px;
 }
+h1 {
+	padding: 1px; 
+	font-size: 50px; 
+}
 #header { 
-	background-color: #bbc5ca; 
+	color: #3498db; 
 	padding: 0px;
 }
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+	color: #45687F;
+}
+#separator { 
+	height: 20px;
+	width: 800px; 
+	background-color: white; 
 }
 li {
     display: inline;
+	color: #45687F; 
 }
 #title { 
 	text-align: center;
@@ -39,21 +50,33 @@ li {
 	background-color: #fefefe;
 }
 #nav { 
-	background-color: #d7dee0;
+	background-color: #fff;
 	float: left;
 	width: 800px; 
-	text-align: center;
+	text-align: center; 
 }
 a { 
-	color: #000; 
+	color: #45687F; 
 	text-decoration: none;
 }
 #content {
 	float: left;
 }
 
+.links { 
+	padding: 0px 10px 0px 10px;
+}
+
 #footer {
 	clear: both;
-	background-color: #d7dee0;
+	color: #45687F; 
+	background-color: #fff;
 	text-align: right;
+}
+
+.head{
+	padding-left: 130px; 
+	color: red; 
+	font-size: 25px; 
+	font-weight: bold;
 }
