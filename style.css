@@ -1,92 +1,104 @@
 body { 
 	background-color: #fff;
-	font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
 }
 
-#container {
-	background-color: #fff;
-	width: 750px; 
-	margin-left: auto;
+#container { 
+	width: 700px; 
 	margin-right: auto;
-	padding: 15px; 
-}
-h1, h2, h3 {
-	margin: 0px;
-	padding: 1px;
-}
-h1 {
-	padding: 1px; 
-	font-size: 50px; 
-	font-family: Helvetica;
-}
-#header { 
-	color: #3498db; 
-	padding: 0px;	
-}
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 10px;
-	color: #45687F;
-	font-family: 'Open Sans Condensed', sans-serif;
-}
-#separator { 
-	height: 20px;
-	background-color: white; 
-}
-li {
-    display: inline;
-	color: #45687F; 
-}
-#title { 
-	text-align: center;
-	margin: 0px;
-} 
-
-#subtitle { 
-	text-align: center;
-	padding: 0px;
-}
-#main {
-	background-color: #fefefe;
-	width: 100%;
-}
-#nav { 
+	margin-left: auto;
 	background-color: #fff;
-	float: left;
-	width: 800px; 
-	text-align: center; 
-}
-a { 
-	color: #45687F; 
-	text-decoration: none;
-	margin: 15px;
-}
-#content {
-	float: left;
+	padding: 10px;
 }
 
+#header{ 
+	text-align: center;
+	width: 700px;
+	font-family: 'Oswald', sans-serif;
+	color: #318ECC;
+}
 
-#footer {
-	clear: both;
-	color: #45687F; 
-	background-color: #fff;
+#nav{ 
+	width: 700px;
+	text-align: center;
+	color: #3DB1FF;
+}
+
+#content{ 
+	width: 500px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	padding: 30px;
+}
+article{ 
+	padding-bottom: 30px;
+}
+.dots{ 
+	font-size: 30px;
+	color:#89D0FF; 
+	padding: 0;
+	margin: -5px;
+}
+
+#job-heading{ 
+	margin: -5px;
+	padding-bottom: 0px;
+}
+
+.years{ 
+	width: 180px;
+	padding: 0 15px 0 0;
+	margin: 0 0 0 -100px;
+	color: red;
+	float: left;
 	text-align: right;
-	margin-right: 30px;
 }
 
-.head{
-	padding-left: 70px; 
-	color: #3DB1FF; 
-	font-size: 25px; 
+.job-title{
+	float: left;
 	font-weight: bold;
-	
+	color: #1E587F;
 }
 
-.dots{
-    margin-left: 350px;
-	padding: 0px;
-	font-size: 30px; 
-	font-weight: bold; 
-	color: #3DB1FF
+.job-company{ 
+	float: right;
+	font-style: italic;
+	color: #45687F;
+}
+.job-descrip{
+	text-align: left;
+	padding-left: 120px;
+	padding-top: 0px;
+}
+h1{ 
+	font-size: 80px;
+}
+h2{
+	color: #318ECC;
+	padding: 0;
+}
+
+h1, h2, h3{ 
+	margin: 0;
+	padding: 0;
+}
+
+li.nav-l{ 
+	display: inline;
+	padding: 0 10px 0 10px;
+}
+
+ul.nav-links{ 
+	text-decoration: none;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+} 
+a{
+	text-decoration: none;
+	color: #3DB1FF;
+}
+a:hover{ 
+	color: #89D0FF;
 }
