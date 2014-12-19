@@ -34,13 +34,19 @@ body {
 article{ 
 	padding-bottom: 30px;
 }
+
+#footer{
+	text-align: right;
+}
 .dots{ 
 	font-size: 30px;
 	color:#89D0FF; 
 	padding: 0;
 	margin: -5px;
 }
-
+h2{ 
+	font-family: 'Kaushan Script', cursive;
+}
 
 .just-text{ 
 	float: left;
