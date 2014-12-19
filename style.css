@@ -115,3 +115,16 @@ a:hover{
 a.contact-link{ 
 	padding-right: 10px;
 }
+
+.scrollToTop{
+	padding:10px; 
+	text-align:center; 
+	font-weight: bold;
+	text-decoration: none;
+	position:fixed;
+	top:75px;
+	right:40px;
+}
+.scrollToTop:hover{
+	text-decoration:none;
+}

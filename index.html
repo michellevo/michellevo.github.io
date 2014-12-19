@@ -6,11 +6,36 @@
 	<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script>
+	$(document).ready(function(){
+		$('a[href^="#"]').on('click',function (e) {
+			e.preventDefault();
+
+			var target = this.hash;
+			var $target = $(target);
+
+			$('html, body').stop().animate({
+			'scrollTop': $target.offset().top
+			}, 900, 'swing');
+		});
+		//Check to see if the window is top if not then display button
+		$(window).scroll(function(){
+			if ($(this).scrollTop() > 100) {
+				$('.scrollToTop').fadeIn();
+			} else {
+				$('.scrollToTop').fadeOut();
+			}
+		});
+		});
+	</script>
+	
 </head>
 <body>
+<a href="#header" class="scrollToTop">T O P</a>
 <div id="container">
 	<div id="header"> 
-		<a href="http://michellevo.github.io/" style="color: #318ECC"><h1>MICHELLE VO</h1>
+		<a href="#" style="color: #318ECC"><h1>MICHELLE VO</h1>
 		<h3 style="font-family: 'Kaushan Script', cursive;">University of Waterloo CFM Student</h3></a>
 	</div> 
 	<hr style="border: none; height: 1px; width: 550px; color: #3498db; background: #DE9935;"/>
@@ -105,7 +130,7 @@
 	</div>
 	
 	<div id="footer">
-		<a href="#">Back to Top</a>
+		<a href="#header">Back to Top</a>
 	</div>
 </div>
 </body>
