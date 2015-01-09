@@ -76,6 +76,16 @@ h2{
 	padding-left: 65px;
 	padding-top: 0px;
 }
+.circular {
+	margin-right: auto;
+	margin-left: auto;
+	width: 150px;
+	height: 150px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	background: url(http://i.imgur.com/8t5XwFU.jpg) no-repeat;
+}
 
 h1{ 
 	font-size: 80px;
