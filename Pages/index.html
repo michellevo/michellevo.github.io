@@ -1,0 +1,139 @@
+<!doctype html>
+<html> 
+<head>
+	<title>MV</title>
+	<link rel="stylesheet" type="text/css" href="style.css"/> 
+	<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script>
+	$(document).ready(function(){
+		$('a[href^="#"]').on('click',function (e) {
+			e.preventDefault();
+
+			var target = this.hash;
+			var $target = $(target);
+
+			$('html, body').stop().animate({
+			'scrollTop': $target.offset().top
+			}, 900, 'swing');
+		});
+		//Check to see if the window is top if not then display button
+		$(window).scroll(function(){
+			if ($(this).scrollTop() > 150) {
+				$('.scrollToTop').fadeIn();
+			} else {
+				$('.scrollToTop').fadeOut();
+			}
+		});
+		});
+	</script>
+	
+</head>
+<body>
+<a href="#header" class="scrollToTop">T O P</a>
+<div id="container">
+	<div id="header"> 
+		<a href="#" style="color: #318ECC"><h1>MICHELLE VO</h1>
+		<h3 style="font-family: 'Kaushan Script', cursive;">University of Waterloo CFM Student</h3></a>
+	</div> 
+	<hr style="border: none; height: 1px; width: 550px; color: #3498db; background: #DE9935;"/>
+	<div id="nav"> 
+		<ul class="nav-links">
+			<li class="nav-l"><a href="#">Home</a></li>
+			<li class="nav-l"><a href="http://github.com/michellevo" target="_blank"> Github</a></li>
+			<li class="nav-l"><a href="#experience">Experience</a></li>
+			<li class="nav-l"><a href="#skills">Skills</a></li>
+			<li class="nav-l"><a href="#education">Education</a></li>
+			<li class="nav-l"><a href="#interests">Interests</a></li>
+			<li class="nav-l"><a href="#contact">Contact</a></li>
+		</ul>
+	</div>
+	
+	<div id="content">
+		<article id="about"> 
+			<h2>About Me</h2>
+			<hr style="border: none; height: 1px; width: 250px; background: #DE9935;"/>
+			<div class="about-me">
+			<div class="circular"></div>
+			<p class="job-descrip">Hello, my name is Michelle Vo and I am currently a first year student
+			at the University of Waterloo in the Computing and Financial Management program, anticipating to 
+			graduate in 2019.</p>
+			</div>
+		</article>
+		<article id="experience">
+			<h2>Experience</h2>	
+			<hr style="border: none; height: 1px; width: 250px; background: #DE9935;"/>
+				<p><div class="years">2013-2014</div>
+				<div class="job-title">Director of Publicity</div>
+				<div class="job-company">Peel Red Cross Youth Action Council</div></p>
+			</br>
+			<p class="job-descrip">Create promotional material for the council such as 
+			<a href="https://www.behance.net/gallery/22181513/RCYAC-Posters" target="_blank">posters</a>, flyers and tickets.</br></p>
+			
+			<div class="years">2014</div>
+				<div class="job-title">Graphic Designer</div>
+				<div class="job-company">FreshStock Apparel</div> 
+			</br>
+			<p class="job-descrip">Create logos and posters for clients according to their needs, keeping in mind 
+			target audience and purpose of the piece.</p>
+		</article>
+		<article id="skills">
+			<h2>Skills</h2>
+			<hr style="border: none; height: 1px; width: 250px; background: #DE9935	;"/>
+			<p><div class="years">Programming: </div>
+			<div class="just-text">Java, HTML5, CSS3</div></br>
+			<div class="years">Programs: </div>
+			<div class="just-text">Photoshop, Illustrator, Microsoft Office</div></br>
+			<div class="years">Languages: </div>
+			<div class="just-text">English, French, Vietnamese</div></p>
+		</article>
+		<article id="education">
+			<h2>Education</h2>
+			<hr style="border: none; height: 1px; width: 250px; background: #DE9935;"/>
+			<p><div class="years">2014-Present</div>
+			<div class="job-title">University of Waterloo</div></br>
+			<div class="job-descrip">Studying Computing and Financial Management.</div></br>
+			<div class="years">2012-2014</div>
+			<div class="job-title"><b>St. Marcellinus Secondary School</b></div></br>
+			<div class="job-descrip">Graduated with a 92% average, was on honour roll, and received the French as a Second Language
+			certificate.</div></br>
+			<div class="years">2010-2012</div>
+			<div class="job-title">St. Francis Xavier Secondary School</div> </br>
+			<div class="job-descrip">Completed the Pre-International Baccalaureate program, and received
+			the <b>Award of Excellence</b> for achieving a 90% average in the 2011-2012 year.</div>
+			</p>
+		</article>
+		<article id="interests">
+			<h2>Interests</h2>
+			<hr style="border: none; height: 1px; width: 250px; background: #DE9935	;"/>
+			<p>
+			<div class="job-descrip" style="color:#1E587F; font-weight: bold; padding-left: 30px;">Game Development</div>
+			<div class="job-descrip" style="padding-left: 30px;">I am a member of the 
+			University of Waterloo Game Development club, and have taken part in the GI Jam organized by the UW Game
+			Development club in joint with the Games Institute of Waterloo. I have some experience with Unity, mostly from
+			involvement with the club and the GI Jam. My interest is backed with an enthusiasm for games, particularly
+			puzzle and logic games: my favourites are the Portal series, and Fez.</div></br>
+			<div class="job-descrip" style="color:#1E587F; font-weight: bold; padding-left: 30px;">Graphic Design</div>
+			<div class="job-descrip" style="padding-left: 30px;">I have over 5 years of experience working with Adobe Photoshop, and over 2 years with Illustrator.
+			I am extremely proficient in the former, and am able to work with a variety of tools within the program. I am particularly
+			interested in typography. Some of my work is available <a href="https://www.behance.net/gallery/22181513/RCYAC-Posters" target="_blank">here</a>.</div>
+		</article>
+		<article id="contact">
+			<h2>Contact Me</h2>
+			<hr style="border: none; height: 1px; width: 250px; background: #DE9935;"/>
+			<div class="contact-links">
+				<a class="contact-link" href="https://www.linkedin.com/in/michellesvo" target="_blank">LinkedIn</a>
+				<a class="contact-link" href="http://github.com/michellevo" target="_blank">GitHub</a>
+				<a class="contact-link" href="http://facebook.com/shellasong" target="_blank">Facebook</a></br>
+				msongvo@gmail.com | (647)717-3163
+			</div>
+		</article>
+	</div>
+	
+	<div id="footer">
+	</div>
+</div>
+</body>
+</html> 	

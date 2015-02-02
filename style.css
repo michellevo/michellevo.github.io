@@ -1,139 +1,67 @@
-body { 
-	background-color: #fff;
-	font-family: 'Roboto Condensed', sans-serif;
+body {
+	margin: 0%;
 }
 
-#container { 
-	width: 700px; 
-	margin-right: auto;
-	margin-left: auto;
-	background-color: #fff;
+.container{ 
+	font-family: 'Roboto', sans-serif;
+	margin: 0%;
 }
 
-#header{ 
-	text-align: center;
-	width: 700px;
-	font-family: 'Oswald', sans-serif;
-	color: #318ECC;
+.logo { 
+	float: left; 
+	padding-left: 1%;
+	margin: 0px;
 }
-
-#nav{ 
-	width: 700px;
-	text-align: center;
-	color: #3DB1FF;
+.menu{ 
+	padding-right: 1%;
+	margin: 1%;
+	height: 3%;
+	position: relative;
 }
-
-#content{ 
-	width: 500px;
-	margin-right: auto;
-	margin-left: auto;
-	text-align: center;
-	padding: 30px;
-}
-article{ 
-	padding-bottom: 30px;
-}
-
-#footer{
+.menu ul{
 	text-align: right;
 }
-.dots{ 
-	font-size: 30px;
-	color:#89D0FF; 
-	padding: 0;
-	margin: -5px;
-}
-h2{ 
-	font-family: 'Kaushan Script', cursive;
-}
-
-.just-text{ 
-	float: left;
-}
-
-.years{ 
-	width: 180px;
-	padding: 0 15px 0 0;
-	margin: 0 0 0 -130px;
-	color: #DE9935;
-	float: left;
-	text-align: right;
-}
-
-.job-title{
-	float: left;
-	font-weight: bold;
-	color: #1E587F;
-}
-
-.job-company{ 
-	float: right;
-	font-style: italic;
-	color: #45687F;
-}
-.job-descrip{
-	text-align: justify;
-	padding-left: 65px;
-	padding-top: 0px;
-}
-.circular {
-	margin-right: auto;
-	margin-left: auto;
-	width: 150px;
-	height: 150px;
-	border-radius: 150px;
-	-webkit-border-radius: 150px;
-	-moz-border-radius: 150px;
-	background: url(http://i.imgur.com/8t5XwFU.jpg) no-repeat;
-}
-
-h1{ 
-	font-size: 80px;
-	padding-bottom: 0px;
-}
-h2{
-	color: #318ECC;
-	padding: 0;
-}
-
-h1, h2, h3{ 
-	margin: 0;
-	padding: 0;
-}
-
-li.nav-l{ 
+.menu li{
 	display: inline;
-	padding: 0 15px 0 15px;
-	font-size: 18px;
+	padding: 0.5%;
 }
-
-ul.nav-links{ 
-	text-decoration: none;
-	list-style-type: none;
-	padding: 0;
+.header{
+	clear: both;
+	color: white;
+	height: 85%;
+	width: 100%;
+	text-align: center;
+	background: transparent url('https://unsplash.imgix.net/uploads/14115890754139bc8568d/d5e1ad1d?fit=crop&fm=jpg&h=700&q=75&w=1050') no-repeat center;
+	background-size: cover;
+	right: 0;
+	left: 0;
+}
+.header h1{ 
+	font-size: 50px;
+	font-weight: 700;
 	margin: 0;
-} 
-a{
-	text-decoration: none;
-	color: #3DB1FF;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
 }
-a:hover{ 
-	color: #89D0FF;
+.header h3{
+	font-weight: 400;
+	margin: 1.5%;
+	position: relative;
+	top: 45%;
+	transform: translateY(-45%);
 }
 
-a.contact-link{ 
-	padding-right: 10px;
+.content{
+	clear: both;
+	padding-top: 5%;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-.scrollToTop{
-	padding:10px; 
-	text-align:center; 
-	font-weight: bold;
-	text-decoration: none;
-	position:fixed;
-	top:75px;
-	right:40px;
-}
-.scrollToTop:hover{
-	text-decoration:none;
+.content h2{
+	margin-left: 40%;
+	width: 20%;
+	text-align: center;
 }

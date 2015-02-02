@@ -1,0 +1,139 @@
+body { 
+	background-color: #fff;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+#container { 
+	width: 700px; 
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #fff;
+}
+
+#header{ 
+	text-align: center;
+	width: 700px;
+	font-family: 'Oswald', sans-serif;
+	color: #318ECC;
+}
+
+#nav{ 
+	width: 700px;
+	text-align: center;
+	color: #3DB1FF;
+}
+
+#content{ 
+	width: 500px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	padding: 30px;
+}
+article{ 
+	padding-bottom: 30px;
+}
+
+#footer{
+	text-align: right;
+}
+.dots{ 
+	font-size: 30px;
+	color:#89D0FF; 
+	padding: 0;
+	margin: -5px;
+}
+h2{ 
+	font-family: 'Kaushan Script', cursive;
+}
+
+.just-text{ 
+	float: left;
+}
+
+.years{ 
+	width: 180px;
+	padding: 0 15px 0 0;
+	margin: 0 0 0 -130px;
+	color: #DE9935;
+	float: left;
+	text-align: right;
+}
+
+.job-title{
+	float: left;
+	font-weight: bold;
+	color: #1E587F;
+}
+
+.job-company{ 
+	float: right;
+	font-style: italic;
+	color: #45687F;
+}
+.job-descrip{
+	text-align: justify;
+	padding-left: 65px;
+	padding-top: 0px;
+}
+.circular {
+	margin-right: auto;
+	margin-left: auto;
+	width: 150px;
+	height: 150px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	background: url(http://i.imgur.com/8t5XwFU.jpg) no-repeat;
+}
+
+h1{ 
+	font-size: 80px;
+	padding-bottom: 0px;
+}
+h2{
+	color: #318ECC;
+	padding: 0;
+}
+
+h1, h2, h3{ 
+	margin: 0;
+	padding: 0;
+}
+
+li.nav-l{ 
+	display: inline;
+	padding: 0 15px 0 15px;
+	font-size: 18px;
+}
+
+ul.nav-links{ 
+	text-decoration: none;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+} 
+a{
+	text-decoration: none;
+	color: #3DB1FF;
+}
+a:hover{ 
+	color: #89D0FF;
+}
+
+a.contact-link{ 
+	padding-right: 10px;
+}
+
+.scrollToTop{
+	padding:10px; 
+	text-align:center; 
+	font-weight: bold;
+	text-decoration: none;
+	position:fixed;
+	top:75px;
+	right:40px;
+}
+.scrollToTop:hover{
+	text-decoration:none;
+}
