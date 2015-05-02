@@ -10,14 +10,14 @@ body {
 	background-color: #fff;
 }
 
-#header{ 
+header{ 
 	text-align: center;
 	width: 700px;
 	font-family: 'Oswald', sans-serif;
 	color: #318ECC;
 }
 
-#nav{ 
+nav{ 
 	width: 700px;
 	text-align: center;
 	color: #3DB1FF;
