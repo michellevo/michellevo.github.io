@@ -1,72 +1,90 @@
-.title h1, h4, p{
+.title h1, h4, p {
   margin: 0;
 }
-a{
+
+a {
   text-decoration: none;
 }
+
 .centered {
   margin: auto;
   text-align: center;
 }
-.section{
+
+.section {
   margin-top: 80px;
 }
-.section h4{
+
+.section h4 {
   margin-bottom: 20px;
 }
-/*.columns, .column{
+
+/*.columns, .column {
   border-width: 1px;
   border-style: solid;
 }*/
-.exp-info{
+.exp-info {
   text-align: right;
 }
-.contact-links a{
+
+.exp-links {
+  padding-left: 3px;
+}
+
+.job {
+  padding-bottom: 20px;
+}
+
+a {
   color: black;
 }
-.contact-links li{
+
+.contact-links li {
   display: inline-block;
   padding-left: 5px;
   padding-right: 5px;
 }
-@media (max-width: 550px){
-  .exp-info{
+
+@media (max-width: 550px) {
+  .exp-info {
     text-align: center;
   }
-  .exp-desc{
+  .exp-desc {
     text-align: center;
     padding-top: 20px;
   }
-  .exp-links{
+  .exp-links {
     margin: auto;
     text-align: center;
   }
-  .mv{
+  .mv {
     display: none;
   }
 }
-#header{
+
+#header {
   height: 100vh;
   background: url(images/background.jpg) no-repeat center center fixed;
   background-size: cover;
 }
-#header .title{
+
+#header .title {
   color: white;
   text-align: center;
   padding-top: 45vh;
 }
 
-#about p{
+#about p {
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
-#contact{
+#contact {
   margin-bottom: 40px;
 }
 
 /* NAVBAR */
-.navbar{
+.navbar {
   display: block;
   height: 6.5rem;
   background: #fff;
@@ -79,22 +97,31 @@ a{
   top: 0;
   left: 0;
 }
-.navbar ul{
+
+.navbar ul {
   float:right;
 }
+
 .navbar-spacer {
-  display: none; }
+  display: none;
+}
+
 .navbar > .container {
-  width: 100%; }
+  width: 100%;
+}
+
 .navbar-list {
   list-style: none;
   margin-bottom: 0;
   margin: auto;
 }
+
 .navbar-item {
   position: relative;
   float: left;
-  margin-bottom: 0; }
+  margin-bottom: 0;
+}
+
 .navbar-link {
   text-transform: uppercase;
   font-size: 11px;
@@ -103,10 +130,15 @@ a{
   margin-right: 35px;
   text-decoration: none;
   line-height: 6.5rem;
-  color: #222; }
+  color: #222;
+}
+
 .navbar-link.active {
-  color: #33C3F0; }
+  color: #33C3F0;
+}
+
 .has-docked-nav .navbar {
   position: fixed;
   top: 0;
-  left: 0; }
+  left: 0;
+}
