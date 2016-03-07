@@ -27,8 +27,8 @@ a {
   text-align: right;
 }
 
-.exp-links {
-  padding-left: 3px;
+.exp-links a{
+  padding-left: 5px;
 }
 
 .job {
