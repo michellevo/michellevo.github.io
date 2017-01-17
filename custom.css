@@ -39,9 +39,17 @@ a {
   color: black;
 }
 
+.contact-links {
+  text-align: center;
+}
+
 .contact-links li {
   display: inline-block;
   padding-left: 5px;
+  padding-right: 5px;
+}
+
+.contact-links i {
   padding-right: 5px;
 }
 
@@ -81,6 +89,10 @@ a {
 
 #contact {
   margin-bottom: 40px;
+}
+
+#email {
+  cursor: pointer;
 }
 
 /* NAVBAR */
@@ -141,4 +153,10 @@ a {
   position: fixed;
   top: 0;
   left: 0;
+}
+
+/* override */
+ul {
+  list-style: circle outside;
+  margin-left: 1em;
 }

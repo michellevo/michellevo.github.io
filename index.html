@@ -26,6 +26,7 @@
   <!-- jquery -->
   <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
   <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.10/clipboard.min.js"></script>
 
 </head>
 <body>
@@ -53,7 +54,7 @@
           Hello! I'm Michelle Vo, and I am a second year computer science student
           at the University of Waterloo. I have a passion for design, and have
           delved into web development and design. I have experience working with
-          HTML, CSS, Javascript, ReactJS, Ember, and Ruby on Rails.</br></br> I'm
+          HTML, CSS, Javascript, Angular, Ember, ReactJS, and Ruby on Rails.</br></br> I'm
           enthusiastic about great design and products.
           </p>
       </div>
@@ -61,6 +62,22 @@
 
     <div class="row section" id="experience">
       <h4 class="centered"> Experience </h4>
+      <div class="row job">
+        <div class="four columns">
+            <p class="exp-info"><strong><a href="http://www.ifwe.co/">if(we)</a></strong></p>
+          <p class="exp-info">August - December 2016</p>
+          <p class="exp-info title"><em>Software Engineering Intern</br>Web Features Team</em></p>
+        </div>
+        <div class="six columns">
+          <p class="exp-desc">
+            <ul>
+              <li>Increased DAU and user retention by building a new content feed, participating in creation of the UI <strong>(Angular, HTML, SCSS)</strong>, and server-side APIs <strong>(Javascript, PHP)</strong></li>
+              <li>Kept code functional and maintainable using Angular unit tests</li>
+              <li>UI/UX design for an intern-run project, creating mobile UI mocks, layout and animation prototyping, running user-testing and analyzing results for future iterations</li>
+            </ul>
+            </p>
+        </div>
+      </div>
       <div class="row job">
         <div class="four columns">
             <p class="exp-info"><strong><a href="http://zenefits.com">Zenefits</a></strong></p>
@@ -99,11 +116,11 @@
     <div class="row section" id="contact">
       <h4 class="centered"> Contact Me </h4>
       <div class="offset-by-two eight columns">
-        <ul class="contact-links" style="text-align: center;">
-	  <li><a href="mailto:msongvo@gmail.com"><i class="fa fa-envelope-o"></i> msongvo@gmail.com </a></li>
-          <li><a href="http://github.com/michellevo"><i class="fa fa-github"></i> michellevo </a></li>
-	  <li><a href="http://linkedin.com/in/michellesvo"><i class="fa fa-linkedin"></i> michellesvo</a></li>
-          <li><a href="MV-resume.pdf"><i class="fa fa-file-text-o"></i> resume</a></li>
+        <ul class="contact-links">
+	  <li><a id="email" value="msongvo@gmail.com" data-clipboard-target="#email"><i class="fa fa-envelope-o"></i>msongvo@gmail.com </a></li>
+          <li><a href="http://github.com/michellevo"><i class="fa fa-github"></i>michellevo </a></li>
+	  <li><a href="http://linkedin.com/in/michellesvo"><i class="fa fa-linkedin"></i>michellesvo</a></li>
+          <li><a href="MV-resume.pdf"><i class="fa fa-file-text-o"></i>resume</a></li>
         </ul>
       </div>
     </div>
@@ -123,6 +140,8 @@
           }
       }
     });
+
+    new Clipboard('.contact-links a');
   </script>
 
 <!-- End Document
